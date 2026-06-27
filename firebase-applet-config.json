@@ -1,8 +1,9 @@
 {
   "projectId": "gen-lang-client-0665568002",
-  "apiKey": "AIzaSyFakeKey",
+  "appId": "1:297077033379:web:364e864875730a2c5ef216",
+  "apiKey": "AIzaSyAbb67nkjnyVFDKAsoZkO5Bzecjy1BzL0M",
   "authDomain": "gen-lang-client-0665568002.firebaseapp.com",
-  "storageBucket": "gen-lang-client-0665568002.appspot.com",
-  "messagingSenderId": "1234567890",
-  "appId": "1:1234567890:web:abcdef123456"
+  "storageBucket": "gen-lang-client-0665568002.firebasestorage.app",
+  "messagingSenderId": "297077033379",
+  "measurementId": ""
 }
