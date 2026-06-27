@@ -1,0 +1,6 @@
+{
+  "name": "Elo Imob CRM",
+  "description": "Menos cliques. Mais chaves entregues",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
