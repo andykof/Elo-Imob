@@ -1,7 +1,8 @@
-import { initializeApp, getApps, cert } from 'firebase-admin/app';
+import { initializeApp, getApps } from 'firebase-admin/app';
 import { getAuth } from 'firebase-admin/auth';
 import firebaseConfig from '../firebase-applet-config.json';
 
+// Initialize Firebase Admin
 if (!getApps().length) {
   initializeApp({
     projectId: firebaseConfig.projectId,
@@ -9,3 +10,4 @@ if (!getApps().length) {
 }
 
 export const adminAuth = getAuth();
+

@@ -40,17 +40,9 @@ export default function Home() {
   if (!user) {
     return (
       <div 
-        className="flex-1 flex flex-col items-center justify-center relative bg-[#001F3F] text-white overflow-hidden"
+        className="flex-1 flex flex-col items-center justify-center relative bg-gradient-to-br from-[#000f1f] via-[#001F3F] to-[#001224] text-white overflow-hidden"
       >
-        <Image 
-          src="https://drive.google.com/uc?export=view&id=1GOkRo6AbeRU37SL_phYPImrVGhz3Fu0y"
-          alt="Elo Imob Background"
-          fill
-          className="object-cover opacity-60 z-0"
-          priority
-          referrerPolicy="no-referrer"
-        />
-        <div className="absolute inset-0 z-10 bg-[#001F3F]/40 mix-blend-multiply" />
+        <div className="absolute inset-0 z-10 bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-blue-900/20 via-transparent to-transparent" />
         
         <div className="z-20 flex flex-col items-center w-full max-w-sm px-4">
           <h1 className="text-5xl font-extrabold mb-2 drop-shadow-2xl tracking-tight text-center">Elo Imob CRM</h1>
